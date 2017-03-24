@@ -40,9 +40,15 @@
             </div>
         </div>
         <script type="text/javascript" src="phonegap.js"></script>
-        <script type="text/javascript" src="js/index.js"></script>
-        <script type="text/javascript">
-            app.initialize();
-        </script>
+
+        
+ <script>
+function vibrateFunction() {
+navigator.vibrate(3000);
+}
+            </script>
+        
+        <button onclick="vibrateFunction()">Vibrate Button</button>
+        
     </body>
 </html>
