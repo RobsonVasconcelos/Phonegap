@@ -1,12 +1,7 @@
 <!DOCTYPE html>
-<meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">  
-<html>
-    
-<button style="margin-top: 100px" onclick="vibrateFunction()">Vibrate Button</button>  
-<script type="text/javascript" src="cordova.js"></script>  
+
 <script type="text/javascript">  
-    function vibrateFunction() {  
-        navigator.vibrate(3000);  
-    }  
+var audio = new Audio('shutterclick.mp3');
+audio.play();
 </script>
-</html>
+
